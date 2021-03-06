@@ -61,13 +61,13 @@ export default function Account() {
 				<p>Loading your orders</p>
 			}
 			{
-				orders.map(order => (
-					<div key={order.id}>
-						{new Date(order.created_at).toLocaleDateString('en-EN')} {order.product.name} ${order.total} {order.status}
-					</div>
+				// orders.map(order => (
+				// 	<div key={order.id}>
+				// 		{new Date(order.created_at).toLocaleDateString('en-EN')} {order.product.name} ${order.total} {order.status}
+				// 	</div>
 					
 				
-				))
+				// ))
 			}
 
 			<hr />
